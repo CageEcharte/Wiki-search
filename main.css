@@ -1,0 +1,94 @@
+h1{
+  font-size: 100px;
+}
+.yup {
+  font-family: "Times New Roman";
+}
+
+ul {
+  list-style-type: none;
+  padding: 5px;
+
+}
+
+.container-center{
+  text-align: center;
+  font-family: "Times New Roman";
+}
+.input-one{
+  text-align: center;
+  font-family: "Times New Roman";
+
+}
+.button-one{
+  text-align: center;
+  font-family: "Times New Roman";
+  background-color: #00B2EE;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+
+}
+.button-one:active{
+  outline: none;
+
+}
+.wiki-link{
+  margin-top: -70px;
+  text-align: center;
+  font-family: "Times New Roman";
+}
+.cage{
+  text-align: center;
+  font-family: "Times New Roman";
+}
+#searchTerm {
+  background-color: #f0f5f5;
+  border-radius: 25px;
+  padding: 15px;
+  width: 40%;
+  font-size: 15px;
+
+}
+
+#searchTerm:focus{
+  background: #f0f5f5;
+  outline: none;
+  border: solid 3px black;
+}
+#outPut{
+  padding-top: 20px;
+  text-align: left;
+  padding-left: 40px;
+}
+#outPut a{
+  font-size: 20px;
+  background-color: #f0f5f5;
+
+}
+
+#outPut p{
+  font-size: 15px;
+  background-color: #f0f5f5;
+}
+@media only screen and (max-width: 800px) {
+
+  h1{
+    font-size: 70px;
+  }
+  .wiki-link{
+    margin-top: -30px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  h1{
+    font-size: 40px;
+  }
+  #outPut{
+    padding-top: 20px;
+    text-align: left;
+    margin-left: -40px;
+  }
+}
