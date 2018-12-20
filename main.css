@@ -10,6 +10,9 @@ ul {
   padding: 5px;
 
 }
+body{
+  background-color: white;
+}
 
 .container-center{
   text-align: center;
